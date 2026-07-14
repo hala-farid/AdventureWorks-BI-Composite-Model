@@ -3,13 +3,15 @@
 An end-to-end Enterprise Business Intelligence and Sales Analytics solution engineered using the **AdventureWorks OLTP** database. This project showcases advanced data modeling, data transformation, and custom reporting capabilities by leveraging a hybrid **Composite Model** (**DirectQuery** for transactional tables and **Import Mode** for dynamic dimensions).
 
 ---
-## 🖼️ Dashboard Preview
+# Dashboard Preview
+
 <img width="885" height="500" alt="Sales Report" src="https://github.com/user-attachments/assets/61353040-68d5-4fc5-a76e-01c806909c51" />
 
 ## Architecture & Technical Features
 
 ### 1. Data Source & Preparation
 * **Source:** AdventureWorks OLTP Database ([Download Link & Configuration Guide](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)).
+ 
 * **Connectivity Mode:** DirectQuery (except for local Power Query transformations).
 * **Data Cleansing:** Renamed tables and columns to user-friendly business terms, and meticulously removed unused columns to optimize query performance.
 * **Transformations & Merges:** 
@@ -36,7 +38,7 @@ Created an isolated, dedicated **DAX Measures Table** to host all key business c
 
 ---
 
-## 📈 Dashboard Layout & Visualizations
+## Dashboard Layout & Visualizations
 The dashboard features an intuitive corporate design with a cohesive color palette, structured layout, and highly meaningful visual titles:
 
 * **Executive KPI Cards:** Displaying `# Orders`, `Total SubTotal`, `Total Tax`, `Total Freight`, and `Total Due`.
@@ -62,7 +64,7 @@ The dashboard features an intuitive corporate design with a cohesive color palet
 
 ---
 
-## 💻 How to Download and Run this Report Locally
+## How to Download and Run this Report Locally
 
 Since this report is built using **DirectQuery** connected to a local SQL Server, opening it on your machine for the first time will require pointing it to your local database instance. Follow these steps:
 
