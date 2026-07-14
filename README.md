@@ -56,6 +56,8 @@ The dashboard features an intuitive corporate design with a cohesive color palet
 
  <img width="1019" height="547" alt="Report DrillThrough" src="https://github.com/user-attachments/assets/ff01b8ef-cf4a-4834-82ca-cd1daa5d72b8" />
 
+ 
+
 <img width="998" height="551" alt="Report DrillThrough Page" src="https://github.com/user-attachments/assets/2fc65bf9-8a8c-4b1a-930e-94580d0ca5c7" />
 
   * Custom-built **Tooltip pages** to reveal instant, context-specific insights on hover.
